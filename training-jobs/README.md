@@ -57,12 +57,14 @@ Every example below can be pulled with `truss train init --examples <name>`. The
 | Name | Directory |
 | --- | --- |
 | `autoresearch-finetune` | [`recipes/autoresearch-finetune/training`](recipes/autoresearch-finetune/training) |
+| `elephant-1-sft` | [`examples/elephant-1-sft/training`](examples/elephant-1-sft/training) |
 | `gemma-27b-axolotl` | [`examples/gemma-27b-axolotl/training`](examples/gemma-27b-axolotl/training) |
 | `glm-4-6-msswift` | [`examples/glm-4-6-msswift/training`](examples/glm-4-6-msswift/training) |
 | `glm-4.7-flash-msswift` | [`examples/glm-4.7-flash-msswift/training`](examples/glm-4.7-flash-msswift/training) |
 | `glm-4.7-msswift` | [`examples/glm-4.7-msswift/training`](examples/glm-4.7-msswift/training) |
 | `isaac-groot` | [`recipes/isaac-groot`](recipes/isaac-groot) |
 | `isaac-lab` | [`recipes/isaac-lab`](recipes/isaac-lab) |
+| `joey-1-sft` | [`examples/joey-1-sft/training`](examples/joey-1-sft/training) |
 | `kimi-k2.6-lora-merge` | [`examples/kimi-k2.6-lora-merge/training`](examples/kimi-k2.6-lora-merge/training) |
 | `llama-8b-lora-unsloth` | [`examples/llama-8b-lora-unsloth/training`](examples/llama-8b-lora-unsloth/training) |
 | `minimax2_5-multinode` | [`examples/minimax2_5-multinode`](examples/minimax2_5-multinode) |
@@ -92,6 +94,7 @@ Every example below can be pulled with `truss train init --examples <name>`. The
 | `qwen3-tts-transformers` | [`examples/qwen3-tts-transformers`](examples/qwen3-tts-transformers) |
 | `qwen3.6-27b-msswift` | [`examples/qwen3.6-27b-msswift/training`](examples/qwen3.6-27b-msswift/training) |
 | `qwen3.6-35b-msswift` | [`examples/qwen3.6-35b-msswift/training`](examples/qwen3.6-35b-msswift/training) |
+| `whisper-checkpoint-import` | [`examples/whisper-checkpoint-import`](examples/whisper-checkpoint-import) |
 | `whisper-transformers` | [`examples/whisper-transformers/training`](examples/whisper-transformers/training) |
 
 The diarization examples ([`parakeet-nemotron-diarization`](examples/parakeet-nemotron-diarization/README.md), [`qwen3-asr-nemotron-diarization`](examples/qwen3-asr-nemotron-diarization/README.md)) are inference clients for Model Library deployments rather than training projects, so they aren't in the index.
